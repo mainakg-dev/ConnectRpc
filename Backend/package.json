@@ -1,0 +1,30 @@
+{
+  "name": "connect-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@bufbuild/buf": "^1.64.0",
+    "@bufbuild/protobuf": "^2.11.0",
+    "@bufbuild/protoc-gen-es": "^2.11.0",
+    "@connectrpc/connect": "^2.1.1",
+    "@connectrpc/connect-express": "^2.1.1",
+    "@connectrpc/connect-node": "^2.1.1",
+    "@connectrpc/validate": "^0.2.0",
+    "@types/express": "^5.0.6",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19"
+  }
+}
