@@ -1,0 +1,16 @@
+{
+  "name": "backend-grpc-compiletime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "ts-proto": "^2.11.1"
+  }
+}
